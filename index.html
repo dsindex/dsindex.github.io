@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="[algorithm]  sort &amp; partial sort : sort,partial sort">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>[algorithm]  sort &amp; partial sort</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/dsindex">View on GitHub</a>
+
+          <h1 id="project_title">[algorithm]  sort &amp; partial sort</h1>
+          <h2 id="project_tagline">sort,partial sort</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="1-quick-sort" class="anchor" href="#1-quick-sort"><span class="octicon octicon-link"></span></a>1. <a href="http://en.wikipedia.org/wiki/Quicksort">quick sort</a>
+</h3>
+
+<ul>
+<li>
+<p>quick sort의 핵심은 <code>inner partition</code>이다.<br>
+추가적인 공간없이 배열을 pivot을 기준으로 두조각으로 분할.<br><del>의외로 quick sort가 아니라 이런걸 물어보면 모른다고 하는 경우가 많다.</del>  </p>
+
+<div class="highlight highlight-c++"><pre><span class="n">function</span> <span class="n">partition</span><span class="p">(</span><span class="n">list</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span><span class="p">,</span> <span class="n">pivotIndex</span><span class="p">)</span>
+   <span class="nl">pivotValue</span> <span class="p">:</span><span class="o">=</span> <span class="n">list</span><span class="p">[</span><span class="n">pivotIndex</span><span class="p">]</span>
+   <span class="n">swap</span> <span class="n">list</span><span class="p">[</span><span class="n">pivotIndex</span><span class="p">]</span> <span class="n">and</span> <span class="n">list</span><span class="p">[</span><span class="n">right</span><span class="p">]</span>  <span class="c1">// Move pivot to end</span>
+   <span class="nl">storeIndex</span> <span class="p">:</span><span class="o">=</span> <span class="n">left</span>
+   <span class="k">for</span> <span class="n">i</span> <span class="n">from</span> <span class="n">left</span> <span class="n">to</span> <span class="n">right</span><span class="o">-</span><span class="mi">1</span>
+       <span class="k">if</span> <span class="n">list</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">pivotValue</span>
+           <span class="n">swap</span> <span class="n">list</span><span class="p">[</span><span class="n">storeIndex</span><span class="p">]</span> <span class="n">and</span> <span class="n">list</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+           <span class="n">increment</span> <span class="n">storeIndex</span>
+   <span class="n">swap</span> <span class="n">list</span><span class="p">[</span><span class="n">right</span><span class="p">]</span> <span class="n">and</span> <span class="n">list</span><span class="p">[</span><span class="n">storeIndex</span><span class="p">]</span>  <span class="c1">// Move pivot to its final place</span>
+   <span class="k">return</span> <span class="n">storeIndex</span>
+</pre></div>
+
+<p>left -&gt; right-1 까지 이동하면서, list[storeIndex]에 pivotValue보다 더 작은 값을 저장하고 마지막에 pivotValue를 list[storeIndex] 위치에 저장하면 끝.  </p>
+</li>
+<li>
+<p>이미 데이터가 정렬된 경우 최악의 성능을 보인다  </p>
+
+<blockquote>
+<p>n^2  </p>
+</blockquote>
+</li>
+<li>
+<p>best case일 때   </p>
+
+<blockquote>
+<p>n*log(n)    </p>
+</blockquote>
+
+<p>best case는 데이터가 선택된 pivot에 의해서 정확히 2등분 되는 경우이다.(현실적으로 그런 경우는 거의 불가능하다)<br>
+증명은 <a href="http://glocalit.skhu.ac.kr/%7Emckim1/Lecture/DS/dna/class08/class08_05.html">이 문서</a>를 참고  </p>
+</li>
+<li>
+<p>기본적으로 recursive 방식이므로 stack의 depth와 크기가 매우 커질 가능성이 있다.<br>
+space complexity  </p>
+
+<blockquote>
+<p>log(n)  </p>
+</blockquote>
+</li>
+</ul><h3>
+<a name="2-heap-sort" class="anchor" href="#2-heap-sort"><span class="octicon octicon-link"></span></a>2. <a href="http://en.wikipedia.org/wiki/Heapsort">heap sort</a>
+</h3>
+
+<ul>
+<li>heap sort의 핵심은 <code>heapify</code>, <code>shiftDown</code>(or <code>shiftUp</code>) <a href="http://en.wikipedia.org/wiki/Heapsort#mediaviewer/File:Heapsort-example.gif">animation</a>을 보면 금방 이해할 수 있다.<br>
+</li>
+<li>
+<a href="http://blog.nextcube.pe.kr/191">min-max heap에 대한 그림 설명</a><br>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/13025163/why-siftdown-is-better-than-siftup-in-heapify">shiftDown과 shiftUp의 time complexity에 대해서</a><br>
+</li>
+<li>
+<p>worst/average time complexity  </p>
+
+<blockquote>
+<p>n*log(n)  </p>
+</blockquote>
+</li>
+<li><p>어째서 n*log(n)인가? <a href="http://cs.stackexchange.com/a/4579">1</a>, <a href="http://www.quora.com/How-does-Heapsort-take-O-nlogn-time">2</a>, <a href="http://en.wikipedia.org/wiki/Stirling's_approximation">3</a></p></li>
+<li><p>quick sort는 space complexity가 log(n)인데 비해서 heap sort는 추가적인 공간 없이 배열에서 swap 연산으로 정렬<br><a href="http://en.wikipedia.org/wiki/In-place_algorithm">in-place 알고리즘</a><br>
+heap을 만들때는 largest value가 root에 있지만, 만든 이후 배열의 마지막으로 보내면 가장 마지막 원소가 largest value가 된다. 즉, 배열은 heap 영역과 sorted 영역으로 구분된다.   </p></li>
+<li>기본적으로 recursive 방식이 아니다.<br>
+</li>
+</ul><h3>
+<a name="3-partial-sort" class="anchor" href="#3-partial-sort"><span class="octicon octicon-link"></span></a>3. <a href="http://en.wikipedia.org/wiki/Partial_sorting">partial sort</a>
+</h3>
+
+<ul>
+<li>
+<p>특정 어플리케이션에서 자주 사용되는 top-k selection algorithm  </p>
+
+<blockquote>
+<p>A streaming, single-pass partial sort is also possible using heaps or other priority queue data structures. First, insert the first k elements of the input into the structure. Then make one pass over the remaining elements, add each to the structure in turn, and remove the largest element. Each insertion operation also takes O(log k) time, resulting in O(n log k) time overall; this algorithm is practical for small values of k and in online settings.</p>
+</blockquote>
+</li>
+<li>
+<p>결과를 저장하는 배열(bucket)이 있는 경우 대략 아래와 같이 구현할 수 있다.<br>
+예를 들어서 길이가 아주 긴 배열이 있을 때, 이중에서 최대값을 갖는 element 10개만 뽑고 싶은 경우가 있다. 이때, 사이즈가 10인 bucket을 하나 두고 배열을 한번 스캔하면서 원하는 결과를 얻을 수 있다.<br>
+배열을 스캔하면서 :<br>
+1) 초기 하나의 element를 bucket에 insert<br>
+2) 다음 element에 대해서<br>
+   : insert시 bucket에 들어갈 위치를 binary search로 탐색<br>
+   : 들어갈 위치를 찾으면 해당 위치에 element를 insert<br>
+   : 이때, bucket에 대한 memory move 연산을 수행<br>
+bucket의 사이즈는 일반적으로 매우 작기 때문에 매우 빠르게 상위 k건을 구할 수 있다.<br>
+time complexity  </p>
+
+<blockquote>
+<p>n * log(k) * (memory move time)  </p>
+</blockquote>
+</li>
+<li>
+<p>결과를 저장하는 자료구조를 heap으로 할 경우 memory move 연산 없이 가능하기 때문에   </p>
+
+<blockquote>
+<p>n * log(k)     </p>
+</blockquote>
+</li>
+</ul><h3>
+<a name="4-partial-heap-sort" class="anchor" href="#4-partial-heap-sort"><span class="octicon octicon-link"></span></a>4. partial heap sort</h3>
+
+<ul>
+<li>partial heap sort는 heap sort 알고리즘을 그대로 활용하면서 k건만 정렬되면 거기서 정지시키는 방식이다.<br>
+</li>
+<li>결과물은 정렬되어 있다(ordered selection)<br>
+</li>
+<li>
+<p>time complexity  </p>
+
+<blockquote>
+<p>n + k*log(n)  </p>
+</blockquote>
+
+<p>: 처음 linear 시간에  heap을 구성 : n<br>
+  : 그 다음부터는 shiftDown을 k번 수행하면 되기 때문에<br>
+    전체 수행 시간이 n + k*log(n)  </p>
+</li>
+</ul><h3>
+<a name="5-quick-select" class="anchor" href="#5-quick-select"><span class="octicon octicon-link"></span></a>5. <a href="http://en.wikipedia.org/wiki/Quickselect">quick select</a>
+</h3>
+
+<ul>
+<li>top-k selection 알고리즘은 quick select를 활용해서도 구현가능하다.<br>
+</li>
+<li>
+<p>quick select<br>
+quick sort에서 사용되는 inner partion의 응용<br>
+k-th element를 선택하는 알고리즘이다.<br>
+time complexity</p>
+
+<blockquote>
+<p>n  </p>
+</blockquote>
+</li>
+<li>
+<p>이러한 quick select 알고리즘을 들여다 보면,  k-th elment를 선택하고 나면,<br>
+그것을 기준으로 오른쪽 배열이 바로 top-k list라는 것을 알 수 있을 것이다.<br>
+time complexity  </p>
+
+<blockquote>
+<p>n + k*log(k)  </p>
+</blockquote>
+
+<p>결과물은 정렬되어 있지 않기(unordered selection) 때문에 정렬을 위해 추가적으로 k*log(k)만큼의 시간이 더 필요하다.  </p>
+
+<p>여기까지 왔으니, 기타 다른 종류의 sorting algorithm에 대해도 알아본다. </p>
+</li>
+</ul><h3>
+<a name="6-bubble-sort" class="anchor" href="#6-bubble-sort"><span class="octicon octicon-link"></span></a>6. <a href="http://en.wikipedia.org/wiki/Bubble_sort">bubble sort</a>
+</h3>
+
+<ul>
+<li>
+<p>sorting을 배울때 가장 처음 배우는 알고리즘.<br>
+time complexity </p>
+
+<blockquote>
+<p>n^2  </p>
+</blockquote>
+</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
