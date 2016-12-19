@@ -1,0 +1,8 @@
+title: NLP
+description: Natural Language Processing,Machine Learning,Development,Algorithm
+google_analytics:  UA-75683530-1
+show_downloads: true
+theme: jekyll-theme-dinky
+
+gems:
+  - jekyll-mentions
