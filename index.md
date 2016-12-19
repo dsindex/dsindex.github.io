@@ -1,7 +1,7 @@
 # **NLP**
 ***
 
-### [[lm] IRST Language Model Toolkit and KenLM](https://github.com/dsindex/blog/wiki/%5Blm%5D-IRST-Language-Model-Toolkit-and-KenLM)
+[[lm] IRST Language Model Toolkit and KenLM](https://github.com/dsindex/blog/wiki/%5Blm%5D-IRST-Language-Model-Toolkit-and-KenLM)
 ### [[named entity] Named Entity Recognition](https://github.com/dsindex/blog/wiki/%5Bnamed-entity%5D-Named-Entity-Recognition)
 ### [[machine translation] introduction to machine translation](https://github.com/dsindex/blog/wiki/%5Bmachine-translation%5D-introduction-to-machine-translation)
 ### [[parsing] visualizer for the Sejong Tree Bank](https://github.com/dsindex/blog/wiki/%5Bparsing%5D-visualizer-for-the-Sejong-Tree-Bank)
