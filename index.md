@@ -68,6 +68,8 @@
 
 ### [[statistics] Naive Bayesian, HMM, Maximum Entropy Model, CRF](https://github.com/dsindex/blog/wiki/%5Bstatistics%5D-Naive-Bayesian,-HMM,-Maximum-Entropy-Model,-CRF)
 
+### [[statistics] HMM, MEMM, CRF](https://github.com/dsindex/blog/wiki/%5Bstatistics%5D-HMM,-MEMM,-CRF)
+
 ### [[statistics] naive bayesian with aspect model](https://github.com/dsindex/blog/wiki/%5Bstatistics%5D-naive-bayesian-with-aspect-model)
 
 ### [[statistics] Bayesian inference](https://github.com/dsindex/blog/wiki/%5Bstatistics%5D-Bayesian-inference)
