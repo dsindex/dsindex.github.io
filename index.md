@@ -186,6 +186,8 @@
 
 ### [[c] struct forward declaration in header](https://github.com/dsindex/blog/wiki/%5Bc%5D-struct-forward-declaration-in-header)
 
+### [[c] ngram function](https://github.com/dsindex/blog/wiki/%5Bc%5D-ngram-function)
+
 ## Go
 
 ### [[go] golang tutorial](https://github.com/dsindex/blog/wiki/%5Bgo%5D-golang-tutorial)
