@@ -103,8 +103,6 @@
 
 ### [[neural network] tutorial and implementations](https://github.com/dsindex/blog/wiki/%5Bneural-network%5D-tutorial-and-implementations)
 
-### [[deep learning] tutorial, implementations](https://github.com/dsindex/blog/wiki/%5Bdeep-learning%5D-tutorial,-implementations)
-
 ### [[word2vec] Neural Language Model and Word2Vec](https://github.com/dsindex/blog/wiki/%5BWord2Vec%5D-Neural-Language-Model-and-Word2Vec)
 
 ### [[word2vec] Word Embedding Visual Inspector](https://github.com/dsindex/blog/wiki/%5BWord2Vec%5D-Word-Embedding-Visual-Inspector)
