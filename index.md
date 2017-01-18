@@ -65,6 +65,8 @@
 
 ### [[statistics] Central Limit Theorem](https://github.com/dsindex/blog/wiki/%5Bstatistics%5D--Central-Limit-Theorem)
 
+### [[statistics] p value](https://github.com/dsindex/blog/wiki/%5Bstatistics%5D-p-value)
+
 ### [[statistics] posterior, likelihood, prior, evidence, MLE, MAP](https://github.com/dsindex/blog/wiki/%5Bstatistics%5D-posterior,-likelihood,-prior,-evidence,-MLE,-MAP)
 
 ### [[statistics] Entropy, Relative Entropy and Mutual Information](https://github.com/dsindex/blog/wiki/%5Bstatistics%5D--Entropy,-Relative-Entropy-and-Mutual-Information)
