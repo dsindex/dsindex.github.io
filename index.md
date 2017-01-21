@@ -264,6 +264,8 @@
 
 ### [[docker] tutorials and related articles](https://github.com/dsindex/blog/wiki/%5Bdocker%5D-tutorials-and-related-articles)
 
+### [[docker] using ubuntu from osx and windows](https://github.com/dsindex/blog/wiki/%5Bdocker%5D-using-ubuntu-from-osx-and-windows)
+
 ### [[interview] questions](https://github.com/dsindex/blog/wiki/%5Binterview%5D-questions)
 
 ## Old posts
