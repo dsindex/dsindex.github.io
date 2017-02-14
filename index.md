@@ -93,6 +93,10 @@
 
 ### [[svm] LIBSVM](https://github.com/dsindex/blog/wiki/%5Bsvm%5D-LIBSVM)
 
+## ME
+
+### [[me] maxent](https://github.com/dsindex/blog/wiki/%5Bme%5D-maxent)
+
 ## CRF
 
 ### [[crf] Wapiti](https://github.com/dsindex/blog/wiki/%5Bcrf%5D-Wapiti)
