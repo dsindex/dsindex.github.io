@@ -45,6 +45,8 @@
 
 ### [[algorithm] efficiently sorting linked lists](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-efficiently-sorting-linked-lists)
 
+### [[algorithm] find most similar vectors](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-find-most-similar-vectors)
+
 ***
 
 # **Common**
