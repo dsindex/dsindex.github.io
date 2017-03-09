@@ -272,6 +272,8 @@
 
 ### [[docker] using ubuntu from osx and windows](https://github.com/dsindex/blog/wiki/%5Bdocker%5D-using-ubuntu-from-osx-and-windows)
 
+### [[bazel] install Syntaxnet in OSX](https://github.com/dsindex/blog/wiki/%5Bbazel%5D-install-Syntaxnet-in-OSX)
+
 ### [[interview] questions](https://github.com/dsindex/blog/wiki/%5Binterview%5D-questions)
 
 ## Old posts
