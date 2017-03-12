@@ -168,6 +168,8 @@
 
 ### [[python] setup.py for egg](https://github.com/dsindex/blog/wiki/%5Bpython%5D-setup.py-for-egg)
 
+### [[python] mangage path in OS X](https://github.com/dsindex/blog/wiki/%5Bpython%5D-mangage-path-in-OS-X)
+
 ## C
 
 ### [[c] How to C(as of 2016)](https://github.com/dsindex/blog/wiki/%5Bc%5D-How-to-C(as-of-2016))
