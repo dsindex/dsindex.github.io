@@ -172,7 +172,7 @@
 
 ### [[python] mangage path in OS X](https://github.com/dsindex/blog/wiki/%5Bpython%5D-mangage-path-in-OS-X)
 
-### [[python] install pygraphviz in OS X](https://github.com/dsindex/blog/wiki/%5Bpython%5D-install-pygraphviz-in-OS-X)
+### [[python] install pygraphviz](https://github.com/dsindex/blog/wiki/%5Bpython%5D-install-pygraphviz)
 
 ## C
 
@@ -278,7 +278,7 @@
 
 ### [[docker] using ubuntu from osx and windows](https://github.com/dsindex/blog/wiki/%5Bdocker%5D-using-ubuntu-from-osx-and-windows)
 
-### [[bazel] install Syntaxnet in OSX](https://github.com/dsindex/blog/wiki/%5Bbazel%5D-install-Syntaxnet-in-OSX)
+### [[bazel] install Syntaxnet](https://github.com/dsindex/blog/wiki/%5Bbazel%5D-install-Syntaxnet)
 
 ### [[interview] questions](https://github.com/dsindex/blog/wiki/%5Binterview%5D-questions)
 
