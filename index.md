@@ -111,7 +111,7 @@
 
 ### [[neural network] notation and mathematics](https://github.com/dsindex/blog/wiki/%5Bneural-network%5D-notation-and-mathematics)
 
-### [[neural network] tutorial and implementations](https://github.com/dsindex/blog/wiki/%5Bneural-network%5D-tutorial-and-implementations)
+### [[neural network] tutorial and frameworks](https://github.com/dsindex/blog/wiki/%5Bneural-network%5D-tutorial-and-frameworks)
 
 ### [[word2vec] Neural Language Model and Word2Vec](https://github.com/dsindex/blog/wiki/%5BWord2Vec%5D-Neural-Language-Model-and-Word2Vec)
 
