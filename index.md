@@ -174,6 +174,8 @@
 
 ### [[python] install pygraphviz](https://github.com/dsindex/blog/wiki/%5Bpython%5D-install-pygraphviz)
 
+### [[python] filtering malformed utf8 character sequence(string)](https://github.com/dsindex/blog/wiki/%5Bpython%5D-filtering-malformed-utf8-character-sequence(string))
+
 ## C
 
 ### [[c] How to C(as of 2016)](https://github.com/dsindex/blog/wiki/%5Bc%5D-How-to-C(as-of-2016))
