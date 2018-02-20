@@ -1,8 +1,3 @@
-# **Paper**
-***
-
-### [[paper] paper list](https://github.com/dsindex/blog/wiki/%5Bpaper%5D-paper-list)
-
 # **NLP**
 ***
 
