@@ -102,6 +102,10 @@
 
 ### [[crf] Wapiti](https://github.com/dsindex/blog/wiki/%5Bcrf%5D-Wapiti)
 
+## Boost
+
+### [[boost] xgboost](https://github.com/dsindex/blog/wiki/%5Bboost%5D-xgboost)
+
 ## Deep Learning
 
 ### [[neural network] neural network and deep learning](https://github.com/dsindex/blog/wiki/%5Bneural-network%5D-neural-network-and-deep-learning)
