@@ -116,6 +116,10 @@
 
 ### [[word2vec] Word Embedding Visual Inspector](https://github.com/dsindex/blog/wiki/%5BWord2Vec%5D-Word-Embedding-Visual-Inspector)
 
+### [[CNN] tutorials](https://github.com/dsindex/blog/wiki/%5BCNN%5D-tutorials)
+
+### [[RNN] tutorials](https://github.com/dsindex/blog/wiki/%5BRNN%5D-tutorials)
+
 ### [[fastText] efficient learning of word representations and sentence classification](https://github.com/dsindex/blog/wiki/%5BfastText%5D-efficient-learning-of-word-representations-and-sentence-classification)
 
 ### [[tensorflow] tutorials](https://github.com/dsindex/blog/wiki/%5Btensorflow%5D-tutorials)
