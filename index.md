@@ -120,6 +120,8 @@
 
 ### [[RNN] tutorials](https://github.com/dsindex/blog/wiki/%5BRNN%5D-tutorials)
 
+### [[optimization] fast inference on CPU](https://github.com/dsindex/blog/wiki/%5Boptimization%5D-fast-inference-on-CPU)
+
 ### [[fastText] efficient learning of word representations and sentence classification](https://github.com/dsindex/blog/wiki/%5BfastText%5D-efficient-learning-of-word-representations-and-sentence-classification)
 
 ### [[tensorflow] tutorials](https://github.com/dsindex/blog/wiki/%5Btensorflow%5D-tutorials)
