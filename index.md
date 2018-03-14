@@ -3,6 +3,8 @@
 
 ### [[embedding] Deep contextualized word representations](https://github.com/dsindex/blog/wiki/%5Bembedding%5D-Deep-contextualized-word-representations)
 
+### [[embedding] unsupervised document embedding with CNNs](https://github.com/dsindex/blog/wiki/%5Bembedding%5D-unsupervised-document-embedding-with-CNNs)
+
 ### [[lm] IRST Language Model Toolkit and KenLM](https://github.com/dsindex/blog/wiki/%5Blm%5D-IRST-Language-Model-Toolkit-and-KenLM)
 
 ### [[named entity] Named Entity Recognition](https://github.com/dsindex/blog/wiki/%5Bnamed-entity%5D-Named-Entity-Recognition)
