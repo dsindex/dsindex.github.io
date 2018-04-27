@@ -27,6 +27,8 @@
 
 ### [[Rouzeta] FST based Korean morphological analyzer](https://github.com/dsindex/blog/wiki/%5BRouzeta%5D-FST-based-Korean-morphological-analyzer)
 
+### [[machine reading] SQuAD machine comprehension](https://github.com/dsindex/blog/wiki/%5Bmachine-reading%5D-SQuAD-machine-comprehension)
+
 # **Algorithm**
 ***
 
