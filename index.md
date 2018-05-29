@@ -40,11 +40,13 @@
 
 ### [[algorithm] segment tree, rmq and autocomplete](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-segment-tree,-rmq-and-autocomplete)
 
-### [[algorithm] structural pattern matching](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-structural-pattern-matching)
-
 ### [[algorithm] KMP, BM string matching algorithm demo](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-KMP,-BM-string-matching-algorithm-demo)
 
 ### [[algorithm] Aho Corasick multi pattern matching](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-Aho-Corasick--multi-pattern-matching)
+
+### [[algorithm] cascaded multi word multi pattern matching](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-cascaded-multi-word-multi-pattern-matching)
+
+### [[algorithm] structural pattern matching](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-structural-pattern-matching)
 
 ### [[algorithm] linear time regular expression matcher via NFA](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-linear-time-regular-expression-matcher-via-NFA)
 
