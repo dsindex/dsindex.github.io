@@ -1,6 +1,8 @@
 # **NLP**
 ***
 
+### [[tutorial] NLP introduction](https://github.com/dsindex/blog/wiki/%5Btutorial%5D-NLP-introduction)
+
 ### [[embedding] Deep contextualized word representations](https://github.com/dsindex/blog/wiki/%5Bembedding%5D-Deep-contextualized-word-representations)
 
 ### [[embedding] unsupervised document embedding with CNNs](https://github.com/dsindex/blog/wiki/%5Bembedding%5D-unsupervised-document-embedding-with-CNNs)
