@@ -40,6 +40,8 @@
 
 ### [[algorithm] generate all permutations of string](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-generate-all-permutations-of-string)
 
+### [[algorithm] edit distance](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-edit-distance)
+
 ### [[algorithm] segment tree, rmq and autocomplete](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-segment-tree,-rmq-and-autocomplete)
 
 ### [[algorithm] KMP, BM string matching algorithm demo](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-KMP,-BM-string-matching-algorithm-demo)
