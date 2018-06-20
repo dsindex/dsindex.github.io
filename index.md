@@ -40,7 +40,7 @@
 
 ### [[algorithm] generate all permutations of string](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-generate-all-permutations-of-string)
 
-### [[algorithm] edit distance](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-edit-distance)
+### [[algorithm] edit distance and longest common substring](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-edit-distance-and-longest-common-substring)
 
 ### [[algorithm] segment tree, rmq and autocomplete](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-segment-tree,-rmq-and-autocomplete)
 
