@@ -44,6 +44,8 @@
 
 ### [[algorithm] binary tree](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-binary-tree)
 
+### [[algorithm] binary search tree](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-binary-search-tree)
+
 ### [[algorithm] segment tree, rmq and autocomplete](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-segment-tree,-rmq-and-autocomplete)
 
 ### [[algorithm] KMP, BM string matching algorithm demo](https://github.com/dsindex/blog/wiki/%5Balgorithm%5D-KMP,-BM-string-matching-algorithm-demo)
