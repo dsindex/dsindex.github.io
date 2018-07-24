@@ -118,6 +118,8 @@
 
 ### [[crf] Wapiti](https://github.com/dsindex/blog/wiki/%5Bcrf%5D-Wapiti)
 
+### [[crf] CRFSuite](https://github.com/dsindex/blog/wiki/%5Bcrf%5D-CRFSuite)
+
 ## Boost
 
 ### [[boost] xgboost](https://github.com/dsindex/blog/wiki/%5Bboost%5D-xgboost)
