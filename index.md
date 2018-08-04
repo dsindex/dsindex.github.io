@@ -199,6 +199,9 @@
 
 ### [[python] filtering malformed utf8 character sequence(string)](https://github.com/dsindex/blog/wiki/%5Bpython%5D-filtering-malformed-utf8-character-sequence(string))
 
+### [[python] python trick](https://github.com/dsindex/blog/wiki/%5Bpython%5D-python-trick)
+
+
 ## C
 
 ### [[c] How to C(as of 2016)](https://github.com/dsindex/blog/wiki/%5Bc%5D-How-to-C(as-of-2016))
