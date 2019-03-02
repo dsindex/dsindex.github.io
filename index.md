@@ -29,8 +29,6 @@
 
 ### [[parsing] BIST Parser](https://github.com/dsindex/blog/wiki/%5Bparser%5D-BIST-Parser)
 
-### [[technique] Deep Learning Technique for NLP problem](https://github.com/dsindex/blog/wiki/%5Btechnique%5D-Deep-Learning-Technique-for-NLP-problem)
-
 ### [[Rouzeta] FST based Korean morphological analyzer](https://github.com/dsindex/blog/wiki/%5BRouzeta%5D-FST-based-Korean-morphological-analyzer)
 
 ### [[machine reading] SQuAD machine comprehension](https://github.com/dsindex/blog/wiki/%5Bmachine-reading%5D-SQuAD-machine-comprehension)
