@@ -19,6 +19,8 @@
 
 ### [[machine translation] introduction to machine translation](https://github.com/dsindex/blog/wiki/%5Bmachine-translation%5D-introduction-to-machine-translation)
 
+### [[simplification] sentence simplification](https://github.com/dsindex/blog/wiki/%5Bsimplification%5D-sentence-simplification)
+
 ### [[parsing] visualizer for the Sejong Tree Bank](https://github.com/dsindex/blog/wiki/%5Bparsing%5D-visualizer-for-the-Sejong-Tree-Bank)
 
 ### [[parsing] constituent tree(phrase structure tree) to dependency tree](https://github.com/dsindex/blog/wiki/%5Bparsing%5D-constituent-tree(phrase-structure-tree)-to-dependency-tree)
