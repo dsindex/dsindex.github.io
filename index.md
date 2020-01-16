@@ -100,6 +100,9 @@
 
 ### [[statistics] Bayesian inference](https://github.com/dsindex/blog/wiki/%5Bstatistics%5D-Bayesian-inference)
 
+### [[statistics] sentencepiece and unigram language model](https://github.com/dsindex/blog/wiki/%5Bstatistics%5D-sentencepiece-and-unigram-language-model)
+
+
 ## HMM
 
 ### [[HMM] Hidden Markov Model 구현 관점에서](https://github.com/dsindex/blog/wiki/%5BHMM%5D--Hidden-Markov-Model-%EA%B5%AC%ED%98%84-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C)
