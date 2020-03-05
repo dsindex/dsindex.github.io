@@ -1,10 +1,6 @@
 # **NLP**
 ***
 
-### [[tutorial] NLP introduction](https://github.com/dsindex/blog/wiki/%5Btutorial%5D-NLP-introduction)
-
-### [[embedding] overview of word embedding](https://github.com/dsindex/blog/wiki/%5Bembedding%5D-overview-of-word-embedding)
-
 ### [[embedding] Deep contextualized word representations](https://github.com/dsindex/blog/wiki/%5Bembedding%5D-Deep-contextualized-word-representations)
 
 ### [[embedding] unsupervised document embedding with CNNs](https://github.com/dsindex/blog/wiki/%5Bembedding%5D-unsupervised-document-embedding-with-CNNs)
@@ -16,8 +12,6 @@
 ### [[named entity] Named Entity Recognition](https://github.com/dsindex/blog/wiki/%5Bnamed-entity%5D-Named-Entity-Recognition)
 
 ### [[brat] brat rapid annotation tool](https://github.com/dsindex/blog/wiki/%5Bbrat%5D-brat-rapid-annotation-tool)
-
-### [[machine translation] introduction to machine translation](https://github.com/dsindex/blog/wiki/%5Bmachine-translation%5D-introduction-to-machine-translation)
 
 ### [[simplification] sentence simplification](https://github.com/dsindex/blog/wiki/%5Bsimplification%5D-sentence-simplification)
 
@@ -33,7 +27,6 @@
 
 ### [[Rouzeta] FST based Korean morphological analyzer](https://github.com/dsindex/blog/wiki/%5BRouzeta%5D-FST-based-Korean-morphological-analyzer)
 
-### [[machine reading] SQuAD machine comprehension](https://github.com/dsindex/blog/wiki/%5Bmachine-reading%5D-SQuAD-machine-comprehension)
 
 # **Algorithm**
 ***
