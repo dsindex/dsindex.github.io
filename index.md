@@ -136,15 +136,7 @@
 
 ### [[RNN] tutorials](https://github.com/dsindex/blog/wiki/%5BRNN%5D-tutorials)
 
-### [[optimization] fast inference on CPU](https://github.com/dsindex/blog/wiki/%5Boptimization%5D-fast-inference-on-CPU)
-
 ### [[layer norm] layer normalization](https://github.com/dsindex/blog/wiki/%5Blayer-norm%5D-layer-normalization)
-
-### [[fastText] efficient learning of word representations and sentence classification](https://github.com/dsindex/blog/wiki/%5BfastText%5D-efficient-learning-of-word-representations-and-sentence-classification)
-
-### [[tensorflow] tutorials](https://github.com/dsindex/blog/wiki/%5Btensorflow%5D-tutorials)
-
-### [[dnc] Differentiable Neural Computer](https://github.com/dsindex/blog/wiki/%5Bdnc%5D-Differentiable-Neural-Computer)
 
 ***
 
