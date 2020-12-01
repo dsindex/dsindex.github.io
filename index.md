@@ -1,19 +1,11 @@
 # **NLP**
 ***
 
-### [[embedding] Deep contextualized word representations](https://github.com/dsindex/blog/wiki/%5Bembedding%5D-Deep-contextualized-word-representations)
-
-### [[embedding] unsupervised document embedding with CNNs](https://github.com/dsindex/blog/wiki/%5Bembedding%5D-unsupervised-document-embedding-with-CNNs)
-
 ### [[attention] NLP with attention](https://github.com/dsindex/blog/wiki/%5Battention%5D-NLP-with-attention)
 
 ### [[lm] IRST Language Model Toolkit and KenLM](https://github.com/dsindex/blog/wiki/%5Blm%5D-IRST-Language-Model-Toolkit-and-KenLM)
 
-### [[named entity] Named Entity Recognition](https://github.com/dsindex/blog/wiki/%5Bnamed-entity%5D-Named-Entity-Recognition)
-
 ### [[brat] brat rapid annotation tool](https://github.com/dsindex/blog/wiki/%5Bbrat%5D-brat-rapid-annotation-tool)
-
-### [[simplification] sentence simplification](https://github.com/dsindex/blog/wiki/%5Bsimplification%5D-sentence-simplification)
 
 ### [[parsing] visualizer for the Sejong Tree Bank](https://github.com/dsindex/blog/wiki/%5Bparsing%5D-visualizer-for-the-Sejong-Tree-Bank)
 
